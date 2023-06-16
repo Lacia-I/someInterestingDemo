@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY-七巧板</title>
+    <style>
+        section {
+            padding: 25px;
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            border: 25px solid transparent;
+            border-radius: 18px;
+            background-clip: padding-box, border-box;
+            background-origin: padding-box, border-box;
+            background-image: linear-gradient(to right, white, white), linear-gradient(to right, skyblue, #578aef);
+        }
+
+        #twoBig {
+            width: 0;
+            height: 0;
+            border-top: 200px solid #9932CC;
+            border-left: 200px solid yellow;
+            border-bottom: 200px solid #4169E1;
+            border-right: 200px solid #DC143C;
+        }
+
+        #blue {
+            width: 0;
+            height: 0;
+            border-top: 100px solid transparent;
+            border-left: 100px solid transparent;
+            border-bottom: 100px solid #00BFFF;
+            border-right: 100px solid transparent;
+            position: relative;
+            top: -300px;
+            left: 100px;
+        }
+
+        #green {
+            width: 0;
+            height: 0;
+            border-top: 100px solid transparent;
+            border-left: 100px solid transparent;
+            border-bottom: 100px solid #48D1CC;
+            border-right: 100px solid #48D1CC;
+            position: relative;
+            top: -400px;
+            left: 200px;
+        }
+
+        #orange1 {
+            width: 0;
+            height: 0;
+            border: 100px solid transparent;
+            border-bottom-color: #FFA500;
+            position: relative;
+            top: -800px;
+            left: 200px;
+        }
+
+        #orange2 {
+            width: 0;
+            height: 0;
+            border: 100px solid transparent;
+            border-top-color: #FFA500;
+            position: relative;
+            top: -800px;
+            left: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div id='twoBig'></div>
+        <div id='blue'></div>
+        <div id="green"></div>
+        <div id="orange">
+            <div id="orange1"></div>
+            <div id="orange2"></div>
+        </div>
+    </section>
+</body>
+
+</html>
